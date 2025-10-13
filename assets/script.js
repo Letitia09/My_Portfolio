@@ -85,7 +85,7 @@ const resumeData = {
         id: 'realestate',
         title: 'Real-Estate Data Pipeline & Analytics Platform',
         summary: 'AWS + Databricks Lakehouse (Medallion) with PySpark and OLAP star schema.',
-        link: 'https://github.com/Letitia09/Call-Center-KPI-Dashboard',
+        link: 'https://github.com/Letitia09/Real-Estate-Pipeline',
         description: [
         'Built a scalable ELT AWS-Databricks pipeline processing 300K+ records; automated workflows cut manual handling by 70% and boosted performance by 40%.',
         'Engineered PySpark/SQL data-quality workflows (profiling, cleansing, transformation, imputation) across Bronze→Silver→Gold layers.',
@@ -97,7 +97,7 @@ const resumeData = {
         id: 'dataprism',
         title: 'Data Prism — AI-Powered Dashboard Generator',
         summary: 'Web app that turns CSVs into dashboards with Google Gemini API.',
-        link: 'https://github.com/Letitia09/Call-Center-KPI-Dashboard1',
+        link: 'https://github.com/Letitia09/Data-Prism',
         description: [
         'Developed a dynamic web app (HTML/CSS/JS) that transforms raw CSV files into interactive dashboards via the Google Gemini API for instant AI-generated insights.',
         'Implemented Chart.js visuals with on-click modals and a no-code interface to democratize analytics for non-technical users.',
@@ -108,7 +108,7 @@ const resumeData = {
         id: 'amazonde',
         title: 'Amazon Data Engineering Books Pipeline — Airflow',
         summary: 'End-to-end ETL with Dockerized Airflow + PostgreSQL.',
-        link: 'https://github.com/Letitia09/Call-Center-KPI-Dashboard2',
+        link: 'https://github.com/Letitia09/Amazon-Books-Pipeline-Airflow',
         description: [
         'Automated an ETL workflow using Apache Airflow + Python to scrape and load Amazon’s Data Engineering books dataset, eliminating manual extraction.',
         'Built robust Pandas cleaning/deduplication routines to improve data reliability and downstream analysis accuracy by 30%.',
@@ -233,3 +233,4 @@ document.addEventListener('DOMContentLoaded', () => {
     changeNav();
     window.addEventListener('scroll', changeNav);
 });
+
