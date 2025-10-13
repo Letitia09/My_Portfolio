@@ -1,0 +1,11 @@
+body { font-family: 'Inter', sans-serif; background-color: #f8f9fa; }
+.nav-link { transition: all 0.3s; }
+.nav-link:hover, .nav-link.active { color: #3b82f6; transform: translateY(-2px); }
+.skill-card, .showcase-card { transition: all 0.3s; }
+.skill-card:hover, .showcase-card:hover { transform: translateY(-4px); box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -2px rgba(0,0,0,.05); }
+.experience-item { cursor: pointer; transition: all 0.3s; }
+.experience-item:hover, .experience-item.active { background-color: #e0e7ff; color: #3b82f6; }
+.modal-bg { background-color: rgba(0,0,0,.5); transition: opacity .3s ease; }
+.modal-content { transition: transform .3s ease, opacity .3s ease; opacity: 0; transform: scale(.95); }
+.modal-bg.open .modal-content { opacity: 1; transform: scale(1); }
+.justify-text { text-align: justify; text-justify: inter-word; }
