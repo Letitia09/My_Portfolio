@@ -16,7 +16,7 @@ const resumeData = {
         'PostgreSQL', 'MySQL', 'SQL Server', 'MongoDB', 'Cassandra'
     ]},
     { category: 'Cloud & Big Data', items: [
-        'AWS (S3, RDS, IAM, Glue)',
+        'AWS (S3, RDS, IAM, Glue, Redshift, Athena, QuickSight)',
         'Azure (Data Factory, Synapse, Databricks)',
         'PySpark', 'Airflow'
     ]},
@@ -24,7 +24,7 @@ const resumeData = {
         'Regression', 'Classification', 'Clustering'
     ]},
     { category: 'Project & Tools', items: [
-        'JIRA', 'ServiceNow', 'Git', 'GitHub', 'Microsoft Office', 'Figma'
+        'JIRA', 'Git', 'GitHub', 'Microsoft Office', 'Figma'
     ]},
     { category: 'Web & Environments', items: [
         'HTML, CSS, JavaScript',
@@ -233,4 +233,5 @@ document.addEventListener('DOMContentLoaded', () => {
     changeNav();
     window.addEventListener('scroll', changeNav);
 });
+
 
