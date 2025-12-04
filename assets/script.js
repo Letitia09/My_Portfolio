@@ -114,7 +114,7 @@ const resumeData = {
 {
         id: 'Blinkit',
         title: 'Blinkit Sales & Inventory Performance Dashboard - Power BI',
-        summary: '15+ high-fidelity mobile screens and prototype.',
+        summary: 'Enhanced inventory and sales insights for 10K+ items using DAX and Power Query, enabling smarter stock allocation and operational efficiency.',
         link: 'https://github.com/Letitia09/Projects/Power BI/Blinkit Inventory Analysis Dashboard',
         description: [
         'Improved inventory and sales insights by analyzing 10K+ items across outlets, identifying top-performing categories/outlets and segmentation opportunities through DAX, Power Query, and automated data modeling—supporting stock allocation, inventory visibility, and operational optimization. '
@@ -239,6 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
     changeNav();
     window.addEventListener('scroll', changeNav);
 });
+
 
 
 
