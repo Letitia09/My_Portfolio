@@ -40,9 +40,9 @@ const resumeData = {
         company: 'Medical College • May 2020 – Dec 2022',
         summary: 'Automated reporting across 500+ weekly records; built dashboards for academic performance and engagement.',
         description: [
-        'Automated reporting workflows in Excel to process 500+ weekly student records, improving data accuracy and accelerating academic decisions by 30%.',
-        'Transformed 50+ attendance and performance datasets for 150+ students using advanced Excel (PivotTables, VLOOKUP, conditional logic), identifying at-risk individuals and driving a 15% engagement lift.',
-        'Built and maintained 10+ interactive dashboards and KPI reports to visualize attendance, grades, and trends, improving transparency and enabling data-driven advising.'
+        'Improved reporting efficiency by 30% by automating weekly Excel workflows to process 500+ operational and academic records with accurate variance tracking and reconciliation.',
+        'Ensured zero-error reporting and accurate record maintenance by cleaning, validating, and reconciling 50+ attendance and performance datasets using PivotTables, VLOOKUP, and conditional logic.', 
+        'Enhanced department-wide data integrity by building and maintaining 10+ dashboards and KPI reports that monitored trends, exceptions, and discrepancies, enabling faster corrective decisions.'
         ]
     },
     {
@@ -51,9 +51,9 @@ const resumeData = {
         company: 'Cognibot • Jul 2021 – Dec 2021',
         summary: 'Built minute-level Bitcoin ingestion + analytics with Python → PostgreSQL and live Plotly visuals.',
         description: [
-        'Automated collection of 1,400+ daily Bitcoin price points by scraping CoinMarketCap every minute with Python (Pandas, BeautifulSoup) and loading into PostgreSQL for historical analysis.',
-        'Built analytics to clean/transform streaming prices; computed percent-change, price-direction, rolling averages for real-time volatility monitoring.',
-        'Developed an interactive Plotly dashboard with 60-second auto-refresh and conditional formatting to visualize price swings and trend patterns for near real-time decision-making.'
+        'Automated collection and validation of 1,400+ daily time-series records, improving data quality, consistency, and audit traceability across inventory-like datasets.', 
+        'Performed data cleaning, anomaly detection, and variance calculations using Python, ensuring reliable inputs for operational analysis.',  
+        'Developed dashboards to monitor real-time performance metrics with alerts for abnormal values, strengthening exception reporting and reconciliation accuracy.'
         ]
     }
     ],
@@ -65,9 +65,7 @@ const resumeData = {
         summary: 'Real-time KPI monitoring with advanced DAX and demographic drill-downs.',
         link: 'https://github.com/Letitia09/credit-card-financial-dashboard',
         description: [
-        'Designed and deployed two real-time Power BI dashboards with advanced DAX to track KPIs (revenue, transactions, delinquency, engagement) with drill-through by gender, region, and activation.',
-        'Uncovered a recurring 12.8% Week-52 revenue drop and 93% transaction share from Blue & Silver cardholders via automated SQL modeling and Power BI transforms over 10K+ transactions.',
-        'Built a CSV-to-dashboard pipeline and demographic segmentations (AgeGroup, IncomeGroup) to support targeted marketing, retention, and product optimization.'
+        'Built real-time Power BI dashboards using advanced DAX and SQL, applying skills in data reconciliation, exception detection, variance tracking, and segmentation—directly supporting decision-making and accuracy in financial performance reporting.'
         ]
     },
     {
@@ -87,10 +85,7 @@ const resumeData = {
         summary: 'AWS + Databricks Lakehouse (Medallion) with PySpark and OLAP star schema.',
         link: 'https://github.com/Letitia09/Real-Estate-Pipeline',
         description: [
-        'Built a scalable ELT AWS-Databricks pipeline processing 300K+ records; automated workflows cut manual handling by 70% and boosted performance by 40%.',
-        'Engineered PySpark/SQL data-quality workflows (profiling, cleansing, transformation, imputation) across Bronze→Silver→Gold layers.',
-        'Designed an 8-dimension / 3-fact star schema enabling fast OLAP; window functions + CTEs improved revenue reporting efficiency by 55%.',
-        'Delivered Databricks SQL dashboards for property pricing, revenue distribution, and yearly growth KPIs.'
+        'Engineered automated data-quality workflows (profiling, cleansing, validation) using SQL & PySpark, simulating inventory-quality control processes, ensuring consistent, reliable datasets used for operational planning.'
         ]
     },
     {
@@ -104,17 +99,28 @@ const resumeData = {
         'Added two modes: one-click Automated Analysis and Custom Prompt for tailored insights.'
         ]
     },
-    {
-        id: 'amazonde',
-        title: 'Amazon Data Engineering Books Pipeline — Airflow',
-        summary: 'End-to-end ETL with Dockerized Airflow + PostgreSQL.',
-        link: 'https://github.com/Letitia09/Amazon-Books-Pipeline-Airflow',
+    // {
+    //     id: 'amazonde',
+    //     title: 'Amazon Data Engineering Books Pipeline — Airflow',
+    //     summary: 'End-to-end ETL with Dockerized Airflow + PostgreSQL.',
+    //     link: 'https://github.com/Letitia09/Amazon-Books-Pipeline-Airflow',
+    //     description: [
+    //     'Automated an ETL workflow using Apache Airflow + Python to scrape and load Amazon’s Data Engineering books dataset, eliminating manual extraction.',
+    //     'Built robust Pandas cleaning/deduplication routines to improve data reliability and downstream analysis accuracy by 30%.',
+    //     'Containerized with Docker (Airflow, PostgreSQL, pgAdmin) to simplify setup and portability.'
+    //     ]
+    // },
+
+{
+        id: 'Blinkit',
+        title: 'Blinkit Sales & Inventory Performance Dashboard - Power BI',
+        summary: '15+ high-fidelity mobile screens and prototype.',
+        link: 'https://github.com/Letitia09/Projects/Power BI/Blinkit Inventory Analysis Dashboard',
         description: [
-        'Automated an ETL workflow using Apache Airflow + Python to scrape and load Amazon’s Data Engineering books dataset, eliminating manual extraction.',
-        'Built robust Pandas cleaning/deduplication routines to improve data reliability and downstream analysis accuracy by 30%.',
-        'Containerized with Docker (Airflow, PostgreSQL, pgAdmin) to simplify setup and portability.'
+        'Improved inventory and sales insights by analyzing 10K+ items across outlets, identifying top-performing categories/outlets and segmentation opportunities through DAX, Power Query, and automated data modeling—supporting stock allocation, inventory visibility, and operational optimization. '
         ]
     },
+        
     {
         id: 'figma',
         title: 'Flight Booking App Screens — UI/UX (Figma)',
@@ -233,5 +239,6 @@ document.addEventListener('DOMContentLoaded', () => {
     changeNav();
     window.addEventListener('scroll', changeNav);
 });
+
 
 
